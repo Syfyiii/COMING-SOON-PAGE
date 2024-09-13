@@ -160,7 +160,7 @@
 	// countdown SETUP start
     var setting = {
         counter: {
-            lastDate: '9/18/2016 12:00:00', // target date settings, 'MM/DD/YYYY HH:MM:SS'
+            lastDate: '1/1/2025 12:00:00', // target date settings, 'MM/DD/YYYY HH:MM:SS'
             timeZone: null,
         }
     };
