@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "digitalnativesagcy.com",
+  "Id": "088dbac7-86a6-4c37-85f2-dbd34a20b255"
+}
