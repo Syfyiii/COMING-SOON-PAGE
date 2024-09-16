@@ -2600,6 +2600,7 @@ display: inline-block;
 div.flexslider {
 background: none;
 border: none;
+	width: 80%;
 }
 
 
@@ -3261,10 +3262,9 @@ filter: alpha(opacity=30);
 /* 880px */
 @media only screen and (max-width: 786px) {
 
-	#intro-wrapper {
+	.intro-wrapper {
 margin: 0;
-width: 100%;
-		height: 40%
+width: 100%; height: 40%;
 }
 /* intro title */
 h6 {
