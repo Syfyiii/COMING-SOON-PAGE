@@ -1864,7 +1864,6 @@ position: absolute;
 display: table;
 height: 100%;
 width: 100%;
-align-items: center;
 left: 0;
 top: 0;
 }
@@ -1880,7 +1879,6 @@ display: table;
 /* display: block; */
 height: 100%;
 width: 100%;
-align-items: center;
 left: 0;
 top: 0;
 background: #fff;
