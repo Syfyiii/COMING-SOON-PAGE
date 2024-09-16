@@ -837,7 +837,8 @@ background: #fff;
 
 #loader .loaderDynamic {
 width: 100%;
-height: 100%;
+height: 100vh;
+z-index: -1;
 display: block;
 background: #db0018;
 }
