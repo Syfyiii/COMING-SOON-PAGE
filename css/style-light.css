@@ -247,7 +247,7 @@ margin: 5% auto;
 padding: 2% 0 0 0;
 border: 1px solid #000;
 width: 25%;
-height: 30%;
+height: 30px;
 /*
 -webkit-box-shadow: 0 0 5px 5px #fff;
    -moz-box-shadow: 0 0 5px 5px #fff;
@@ -256,21 +256,21 @@ height: 30%;
 }
 
 .top-intro {
-height: 110%;
+height: 110px;
 overflow: hidden;
 }
 
 .bottom-intro {
-height: 110%;
+height: 110px;
 overflow: hidden;
 }
 
 .top-intro .title-intro {
-margin: 43% auto 0 auto;
+margin: 43px auto 0 auto;
 }
 
 .bottom-intro .title-intro {
-margin: -97% auto 0 auto;
+margin: -97px auto 0 auto;
 }
 
 h3 {
