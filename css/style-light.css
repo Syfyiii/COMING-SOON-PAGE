@@ -243,11 +243,11 @@ color: #000;
 letter-spacing: normal;
 text-transform: uppercase;
 /* text-shadow: 1px 1px 2px #000; */
-margin: 5px auto;
-padding: 2px 0 0 0;
+margin: 5% auto;
+padding: 2% 0 0 0;
 border: 1px solid #000;
 width: 25%;
-height: 30px;
+height: 30%;
 /*
 -webkit-box-shadow: 0 0 5px 5px #fff;
    -moz-box-shadow: 0 0 5px 5px #fff;
@@ -256,21 +256,21 @@ height: 30px;
 }
 
 .top-intro {
-height: 110px;
+height: 110%;
 overflow: hidden;
 }
 
 .bottom-intro {
-height: 110px;
+height: 110%;
 overflow: hidden;
 }
 
 .top-intro .title-intro {
-margin: 43px auto 0 auto;
+margin: 43% auto 0 auto;
 }
 
 .bottom-intro .title-intro {
-margin: -97px auto 0 auto;
+margin: -97% auto 0 auto;
 }
 
 h3 {
@@ -890,8 +890,7 @@ text-transform: uppercase;
 /* slides */
 .slide { 
 position: fixed;
-display: flex;
-flex-direction: column;
+display: block;
 background: none;
 width: 100%;
 height: 100%;
