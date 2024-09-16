@@ -1861,7 +1861,7 @@ letter-spacing: 1px;
 /* center container */
 .center-container-home {
 position: absolute;
-display: flex;
+display: table;
 height: 100%;
 width: 100%;
 left: 0;
