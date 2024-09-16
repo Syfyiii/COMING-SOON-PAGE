@@ -3259,8 +3259,7 @@ filter: alpha(opacity=30);
 
 /* media queries */
 /* 880px */
-@media only screen and (max-width: 880px) {
-
+@media only screen and (max-width: 1200px) {h1, h2, h3 { padding: -10%}
 /* intro title */
 h6 {
 margin: 52px auto -49px auto;
