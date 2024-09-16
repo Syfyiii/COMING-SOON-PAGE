@@ -191,7 +191,7 @@ background: #fff;
 }
 
 #intro-wrapper {
-margin: 0;
+margin: 0 auto;
 width: 100%;
 }
 
@@ -820,7 +820,7 @@ width: 100%;
 height: 100%;
 overflow: hidden;
 display: block;
-padding: 0%;
+padding: 90px;
 left: 0;
 top: 0;
 -webkit-box-sizing: border-box;
@@ -830,15 +830,14 @@ top: 0;
 
 #loader .loaderStatic {
 width: 0;
-height: 100vh;
+height: 100%;
 display: block;
 background: #fff;
 }
 
 #loader .loaderDynamic {
 width: 100%;
-height: 100vh;
-z-index: -1;
+height: 100%;
 display: block;
 background: #db0018;
 }
@@ -847,16 +846,16 @@ background: #db0018;
 position: absolute;
 display: block;
 width: 100%;
-padding: 5%;
+padding: 50px;
 top: 50%;
-margin-top: 0;
+margin-top: -85px;
 left: 0;
 text-align: center;
 }
 
 #loaderText .loaderTitle {
 font-family: 'Dosis', sans-serif;
-font-size: 120%;
+font-size: 23px;
 font-weight: 400;
 line-height: 1;
 letter-spacing: -0.04em;
@@ -876,7 +875,7 @@ position: relative;
 position: relative;
 display: block;
 font-family: 'Oswald', sans-serif;
-font-size: 180%;
+font-size: 40px;
 font-weight: 400;
 line-height: 1;
 letter-spacing: -0.04em;
@@ -888,13 +887,13 @@ text-transform: uppercase;
 
 
 /* slides */
-.slide { 
+.slide {
 position: fixed;
-display: flex;
-flex-direction: column;
+display: block;
 background: none;
 width: 100%;
 height: 100%;
+left: 100%;
 visibility: inherit;
 }
 
@@ -991,8 +990,6 @@ background-position: center center;
 
 .slide1 {
 position: absolute;
-width: 100%;
-height: 100%;
 left: 0;
 top: 0;
 right: 0;
@@ -2001,19 +1998,16 @@ z-index: 2;
 
 #particles-js {
 width: 100%;
-height: 100vh;
-top: 0;
-left: 0;
-z-index: -1;
+height: 100%;
 overflow: hidden;
 background: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 640px) {
   #particles-holder,
   #particles-js {
-	  height: 100vh;
-
+    display: none;
+	visibility: hidden;
   }
 }
 
@@ -2599,8 +2593,6 @@ display: inline-block;
 div.flexslider {
 background: none;
 border: none;
-	width: 100%;
-	text-align: center;
 }
 
 
@@ -3082,7 +3074,7 @@ html[xmlns] .flexslider .slides {
 /* ====================================================================================================================
  * RESPONSIVE
  * ====================================================================================================================*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 860px) {
   .flex-direction-nav .flex-prev {
     opacity: 1;
     left: 10px;
@@ -3260,12 +3252,8 @@ filter: alpha(opacity=30);
 
 /* media queries */
 /* 880px */
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 880px) {
 
-	.unveil-1 {
-margin: 0;
-width: 100%; height: 40%;
-}
 /* intro title */
 h6 {
 margin: 52px auto -49px auto;
@@ -3386,13 +3374,13 @@ width: 3%;
 }
 
 .quote p {
-padding-top: 10%;
+padding-top: 10px;
 }
 
 /* borders */
 .borders {
-display: block;
-visibility: visible;
+display: none;
+visibility: hidden;
 }
 
 /* navigation */
@@ -3516,8 +3504,8 @@ visibility: hidden;
 
 /* loader */
 #loaderText {
-display: block;
-visibility: visible;
+display: none;
+visibility: hidden;
 }
 
 /* skills */
@@ -3576,7 +3564,6 @@ padding: 20px 0 14px 0;
 .center-container {
 position: relative;
 display: block;
-	width: 100%;
 }
 
 .center-block {
