@@ -888,7 +888,7 @@ text-transform: uppercase;
 
 
 /* slides */
-.slide { .container { 
+.slide { 
 position: fixed;
 display: flex;
 flex-direction: column;
@@ -898,7 +898,6 @@ height: 100%;
 left: 100%;
 visibility: inherit;
 }
-       }
 
 .slideBgImg {
 position: absolute;  
