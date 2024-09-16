@@ -888,15 +888,17 @@ text-transform: uppercase;
 
 
 /* slides */
-.slide {
+.slide { .container { 
 position: fixed;
-display: block;
+display: flex;
+flex-direction: column;
 background: none;
 width: 100%;
 height: 100%;
 left: 100%;
 visibility: inherit;
 }
+       }
 
 .slideBgImg {
 position: absolute;  
