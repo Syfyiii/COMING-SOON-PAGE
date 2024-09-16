@@ -191,7 +191,7 @@ background: #fff;
 }
 
 #intro-wrapper {
-margin: 0 auto;
+margin: 0;
 width: 100%;
 }
 
@@ -3259,7 +3259,13 @@ filter: alpha(opacity=30);
 
 /* media queries */
 /* 880px */
-@media only screen and (max-width: 1200px) {h1, h2, h3 { padding: -10%}
+@media only screen and (max-width: 786px) {
+  #intro-wrapper 
+
+  .unveil-1 h1, .unveil-1 h2, .unveil-1 h3 {
+    font-size: 1.5rem;  /* Make fonts smaller for mobile */
+    text-align: center; /* Center the text on mobile */
+  }
 /* intro title */
 h6 {
 margin: 52px auto -49px auto;
