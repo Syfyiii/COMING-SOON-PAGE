@@ -1864,7 +1864,7 @@ position: absolute;
 display: table;
 height: 100%;
 width: 100%;
-left: 0;
+align-items: center;
 top: 0;
 }
 
@@ -1879,7 +1879,7 @@ display: table;
 /* display: block; */
 height: 100%;
 width: 100%;
-left: 0;
+align-items: center;
 top: 0;
 background: #fff;
 }
