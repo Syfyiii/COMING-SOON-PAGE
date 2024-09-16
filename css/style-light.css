@@ -848,7 +848,7 @@ position: absolute;
 display: block;
 width: 100%;
 padding: 5%;
-top: 20%;
+top: 50%;
 margin-top: 0;
 left: 0;
 text-align: center;
@@ -856,7 +856,7 @@ text-align: center;
 
 #loaderText .loaderTitle {
 font-family: 'Dosis', sans-serif;
-font-size: 60%;
+font-size: 120%;
 font-weight: 400;
 line-height: 1;
 letter-spacing: -0.04em;
@@ -876,7 +876,7 @@ position: relative;
 position: relative;
 display: block;
 font-family: 'Oswald', sans-serif;
-font-size: 90%;
+font-size: 180%;
 font-weight: 400;
 line-height: 1;
 letter-spacing: -0.04em;
@@ -3260,12 +3260,7 @@ filter: alpha(opacity=30);
 /* media queries */
 /* 880px */
 @media only screen and (max-width: 786px) {
-  #intro-wrapper 
 
-  .unveil-1 h1, .unveil-1 h2, .unveil-1 h3 {
-    font-size: 1.5rem;  /* Make fonts smaller for mobile */
-    text-align: center; /* Center the text on mobile */
-  }
 /* intro title */
 h6 {
 margin: 52px auto -49px auto;
@@ -3386,13 +3381,13 @@ width: 3%;
 }
 
 .quote p {
-padding-top: 10px;
+padding-top: 10%;
 }
 
 /* borders */
 .borders {
-display: none;
-visibility: hidden;
+display: block;
+visibility: visible;
 }
 
 /* navigation */
