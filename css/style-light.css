@@ -1290,7 +1290,7 @@ width: 100%;
 /* countdown */
 #countdown {
 position: relative;
-width: 100%;
+width: 80%;
 height: auto;
 margin: 0 auto;
 padding: 0;
@@ -1325,7 +1325,7 @@ text-transform: uppercase;
 margin: 5px auto;
 padding: 2px 0 0 0;
 border: 1px solid #000;
-width: 80%;
+width: 70%;
 height: 30px;
 }
 
@@ -3339,7 +3339,7 @@ padding: 138px 0 34px 0;
 }
 
 .unveil-1, .unveil-2 {
-margin: -79px -96px;
+margin: -79px auto -96px auto;
 }
 
 .unveil-3 {
