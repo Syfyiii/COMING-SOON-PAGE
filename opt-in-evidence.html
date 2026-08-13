@@ -137,7 +137,7 @@
 
                 <h2 class="h4 mt-5 mb-3">1. Overview</h2>
                 <p>DNAgency LLC provides AI-powered call answering and appointment booking services for local service businesses. When a consumer calls a business served by our platform, an automated voice assistant answers, helps the caller schedule an appointment, and &mdash; with the caller's explicit verbal permission &mdash; sends transactional text messages about that appointment.</p>
-                <p>SMS consent is collected verbally during inbound phone calls initiated by the consumer, and via an optional START keyword path. This page documents the complete consent experience for carrier and compliance review.</p>
+                <p>SMS consent is collected verbally during inbound phone calls initiated by the consumer. This page documents the complete consent experience for carrier and compliance review.</p>
 
                 <h2 class="h4 mt-5 mb-3">2. Verbal Opt-In Flow</h2>
                 <p>Every call follows this scripted flow. The consent exchange below is reproduced word-for-word from the production agent script (receptionist prompt v2.1.0).</p>
@@ -180,20 +180,13 @@
                 </table>
                 <p>All calls are recorded and transcribed. Each consent exchange is therefore documented with a timestamped transcript retained with the booking record. Consent status is stored per phone number and checked before every message send.</p>
 
-                <h2 class="h4 mt-5 mb-3">3. Keyword Opt-In Flow</h2>
-                <p>Consumers may also opt in by texting <strong>START</strong> to the campaign number. They receive this confirmation auto-reply:</p>
-                <div class="sms-thread mb-4">
-                    <p class="sms-label">Auto-reply to START</p>
-                    <div class="sms-bubble">[Business Name] via DNAgency: You're opted in to appointment confirmations and reminders. Msg frequency varies. Msg &amp; data rates may apply. Reply HELP for help, STOP to opt out.</div>
-                </div>
-
-                <h2 class="h4 mt-5 mb-3">4. Disclosures &amp; Opt-Out</h2>
+                <h2 class="h4 mt-5 mb-3">3. Disclosures &amp; Opt-Out</h2>
                 <p>Message frequency varies with the consumer's own appointment activity. Message and data rates may apply.</p>
                 <p>Consumers can reply <strong>STOP</strong> at any time to opt out. Opt-out is honored automatically and immediately at the carrier level, and the number is additionally suppressed at our application layer so no further messages are sent from our systems.</p>
                 <p>Consumers can reply <strong>HELP</strong> at any time for assistance.</p>
                 <p>No mobile information is shared with third parties or affiliates for marketing or promotional purposes. Opt-in data and consent records are not shared with any third parties except as necessary to deliver the messages themselves (our messaging service providers) or as required by law.</p>
 
-                <h2 class="h4 mt-5 mb-3">5. Sample Messages</h2>
+                <h2 class="h4 mt-5 mb-3">4. Sample Messages</h2>
                 <p>Transactional messages sent under this campaign:</p>
                 <div class="sms-thread mb-4">
                     <p class="sms-label">Appointment confirmation</p>
@@ -204,7 +197,7 @@
                     <div class="sms-bubble">You have successfully been unsubscribed. You will not receive any more messages from this number. Reply START to resubscribe.</div>
                 </div>
 
-                <h2 class="h4 mt-5 mb-3">6. Links</h2>
+                <h2 class="h4 mt-5 mb-3">5. Links</h2>
                 <p>
                     <a href="privacy.html">Privacy Policy</a> &middot;
                     <a href="terms.html">Terms &amp; Conditions</a> &middot;
