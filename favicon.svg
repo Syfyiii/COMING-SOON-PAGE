@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="DNA">
+  <rect width="120" height="120" fill="#050505"/>
+  <path d="M18 92h84" stroke="#8a0f14" stroke-width="8"/>
+  <text x="60" y="68" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="36" font-weight="900" fill="#f7f7f5">DNA</text>
+</svg>
