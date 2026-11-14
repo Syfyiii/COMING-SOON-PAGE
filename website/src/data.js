@@ -1,0 +1,182 @@
+export const plans = [
+  {
+    name: 'Launch',
+    price: '$500',
+    setup: '$1,500',
+    outcome: 'Make your first move.',
+    description:
+      'A clear presence. A way to capture leads. A reason to stay in touch.',
+    setupItems: [
+      'Brand discovery session',
+      'Single-page website or landing page',
+      'Google Business Profile setup',
+      'Lead capture funnel with email opt-in',
+    ],
+    monthly: [
+      '8 social posts across 2 platforms',
+      '1 email campaign + 1 blog post',
+      'Google Business Profile maintenance',
+      'Basic monthly performance report',
+    ],
+  },
+  {
+    name: 'Presence',
+    price: '$1,500',
+    setup: '$3,000',
+    outcome: 'Become the brand they remember.',
+    description:
+      'Build recognition across the channels your customers already use.',
+    setupItems: [
+      'Website up to 5 pages',
+      'Email platform setup',
+      'Sales and booking funnels',
+      'Meta Pixel, GA4 and Google Tag Manager',
+    ],
+    monthly: [
+      '16 social posts across 2 platforms',
+      '4 email campaigns + 2 blog posts',
+      'Ads on 1 platform, up to $1K spend managed',
+      'Outreach to 5 creators + 1 collaboration',
+      'Monthly analytics report',
+    ],
+  },
+  {
+    name: 'Momentum',
+    price: '$3,500',
+    setup: '$5,500',
+    outcome: 'Turn visibility into demand.',
+    description:
+      'Connect content, creators, and conversion into a more consistent path to growth.',
+    setupItems: [
+      'Advanced website up to 10 pages',
+      'CRM with lead scoring and routing',
+      'Webinar, quiz, application and tripwire funnels',
+      'Meta and Google retargeting infrastructure',
+      '3 lead magnets + 90-day content and influencer calendar',
+    ],
+    monthly: [
+      '24 social posts across 3 platforms',
+      '8 email campaigns with A/B testing + 4 content pieces',
+      'Ads on 2 platforms, up to $5K spend managed',
+      '2 landing-page conversion tests',
+      'Outreach to 10 creators + 3 collaborations',
+      'Creator content repurposed into whitelisted ads',
+      'Bi-weekly strategy calls + monthly lead attribution',
+    ],
+  },
+  {
+    name: 'Authority',
+    price: '$6,500',
+    setup: '$8,500',
+    outcome: 'Lead the conversation.',
+    description:
+      'Bring your brand into focus with creative production and a stronger presence across channels.',
+    setupItems: [
+      'Brand identity system or refresh',
+      'Video production infrastructure',
+      'Landing-page library up to 10 pages',
+      'Creator ambassador program design',
+      'PR and media kit',
+      'Social account setup and optimization on 4 platforms',
+    ],
+    monthly: [
+      '30+ social posts across 4 platforms, with short-form video and full account management',
+      '6 content pieces + full email lifecycle management',
+      'Ads on 3+ platforms, up to $15K spend managed',
+      '6 short-form + 2 long-form brand videos',
+      '10 custom ad creatives + 3 UGC assets',
+      '5 influencer collaborations + creator library management',
+      'Weekly strategy + monthly competitive and creator audit',
+    ],
+  },
+  {
+    name: 'Icon',
+    price: '$10,000',
+    setup: '$12,000',
+    outcome: 'Build a brand with staying power.',
+    description:
+      'A dedicated growth partnership spanning your brand, media, community, and customer journey.',
+    setupItems: [
+      'Full brand identity system',
+      'Real-time analytics dashboard + multi-channel attribution',
+      'Community platform setup',
+      'Influencer program SOPs and playbooks',
+      'Affiliate and referral infrastructure',
+      'Social account setup and optimization across relevant platforms',
+    ],
+    monthly: [
+      'Unlimited social content + full account management',
+      '8+ content pieces + full-funnel paid media across all platforms ($30K+ spend managed)',
+      'All Authority creative production',
+      'Dedicated strategist + weekly strategy with executive reporting',
+      'Monthly half-day photo and video shoot',
+      '10+ micro, macro and celebrity influencer collaborations',
+      'Community building and management',
+      'Monthly PR pitching and media placement',
+      'Quarterly review with full-funnel ROI',
+    ],
+  },
+]
+
+export const catalogGroups = [
+  {
+    title: 'Websites & apps',
+    note: 'Static sites exclude interaction integrations. Interactive experiences include interactions and 3 major revisions. Single-function app changes require maintenance. Maintenance excludes expansion and new functionality.',
+    items: [
+      ['Static / single-page website', '$500'],
+      ['Interactive website', '$1,500'],
+      ['Website up to 5 pages', '$1,500'],
+      ['Website up to 10 pages', '$3,000'],
+      ['Single-function branded app', '$2,500'],
+      ['App + dashboard, 3 main functions', '$7,500'],
+      ['Single-function app maintenance', '$500/mo'],
+    ],
+  },
+  {
+    title: 'Strategy, brand & content',
+    items: [
+      ['Brand identity system', '$3,500'],
+      ['Brand refresh', '$1,500'],
+      ['Social audit + strategy', '$500'],
+      ['Social account setup, per platform', '$150'],
+      ['SEO audit + roadmap', '$750'],
+      ['PR + media kit', '$1,000'],
+      ['Lead magnet, per asset', '$250'],
+    ],
+  },
+  {
+    title: 'Funnels, email & growth',
+    items: [
+      ['Single funnel build', '$800'],
+      ['Full funnel ecosystem, 3+ funnels', '$2,000'],
+      ['Email setup + automation', '$800'],
+      ['CRM setup + lead scoring', '$1,500'],
+      ['Paid ad campaign setup', '$500'],
+      ['Analytics + tracking installation', '$350'],
+      ['Google Business Profile setup', '$250'],
+      ['Affiliate / referral program', '$1,500'],
+      ['Community platform setup', '$1,000'],
+    ],
+  },
+  {
+    title: 'Creators & influence',
+    items: [
+      ['Micro campaign, 5 creators under 100K', '$5,000'],
+      ['Mid-tier campaign, 5 creators with 100K-500K', '$12,500'],
+      ['Macro campaign, 5 creators with 500K-1M', '$25,000'],
+      ['Celebrity / top-tier campaign, 1M+', '$50,000+'],
+      ['UGC package, 5 assets', '$3,500'],
+    ],
+  },
+  {
+    title: 'Event activations',
+    note: 'Available with any package. Each activation includes pre-event digital promotion, on-site content capture, and post-event lead nurture. Priced per event.',
+    items: [
+      ['Pop-up experience', '$3,500'],
+      ['Activation at an existing event', '$5,000'],
+      ['Hosted brand event', '$8,500'],
+      ['Influencer-led event', '$10,000'],
+      ['Multi-day campaign activation', 'From $15,000'],
+    ],
+  },
+]
