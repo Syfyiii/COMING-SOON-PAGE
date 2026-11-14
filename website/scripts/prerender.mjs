@@ -11,6 +11,7 @@ const escape = (text) =>
     .replaceAll('<', '&lt;')
     .replaceAll('>', '&gt;')
 assert.equal(escape('<a "&">'), '&lt;a &quot;&amp;&quot;&gt;')
+const securityPolicy = `<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; media-src 'self'; connect-src 'self' https://hkaebkojnjjyknjfjore.supabase.co; object-src 'none'; base-uri 'self'; form-action 'none'">`
 const template = await readFile('dist/index.html', 'utf8')
 const server = await createServer({
   server: { middlewareMode: true, hmr: false },
@@ -29,18 +30,18 @@ try {
 <meta property="og:image:alt" content="DNA — Digital Natives Agency">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; media-src 'self'; connect-src 'self' https://hkaebkojnjjyknjfjore.supabase.co; object-src 'none'; base-uri 'self'; form-action 'none'">
 <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'Organization', '@id': siteOrigin + '/#organization', name: 'Digital Natives Agency', legalName: 'DNAgency LLC', url: siteOrigin + '/', logo: siteOrigin + '/brand/dna-black.svg', email: 'support@digitalnativesagcy.com', telephone: '+16468205059' })}</script>`
     if (page.path.endsWith('.html')) {
       // Keep sourced policy documents independently usable without JavaScript.
       const file = 'dist' + page.path
       const html = await readFile(file, 'utf8')
-      await writeFile(file, html.replace('</head>', metadata + '</head>'))
+      await writeFile(file, html.replace('<head>', '<head>' + securityPolicy).replace('</head>', metadata + '</head>'))
       continue
     }
     const body = render(page.route)
     assert(body.includes('Digital Natives Agency'))
     const html = template
+      .replace('<head>', '<head>' + securityPolicy)
       .replace(/<title>.*?<\/title>/s, `<title>${escape(page.title)}</title>`)
       .replace(
         /<meta\s+name="description"\s+content="[^"]*"\s*\/?\s*>/s,
@@ -52,6 +53,7 @@ try {
         `<div id="root" data-route="${escape(JSON.stringify(page.route))}">${body}</div>`,
       )
     assert(!html.includes('<div id="root"></div>'))
+    assert(html.indexOf('Content-Security-Policy') < html.indexOf('<script type="module"'))
     const directory = 'dist' + (page.path === '/' ? '' : page.path)
     await mkdir(directory, { recursive: true })
     await writeFile(directory + '/index.html', html)
