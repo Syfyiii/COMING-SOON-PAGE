@@ -1,4 +1,4 @@
--- DNAG draft only. Review/apply separately; do not overwrite existing objects.
+-- DNAG website inquiry delivery. Applied 2026-11-14; do not overwrite existing objects.
 -- Isolated from CallCenter/Auth. No extensions, triggers or default grants.
 begin;
 

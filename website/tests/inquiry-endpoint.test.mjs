@@ -1099,7 +1099,7 @@ test('Deno entry wrapper reads only named environment fixtures and registers the
 test('draft SQL has isolated objects, invoker-only service grants, RLS and atomic quota/retention structure', async () => {
   const sql = (
     await readFile(
-      new URL('../supabase/migrations/20261114103546_website_inquiry_delivery.sql', import.meta.url),
+      new URL('../supabase/migrations/20261114132930_website_inquiry_delivery.sql', import.meta.url),
       'utf8',
     )
   ).replace(/--[^\n]*/g, '')

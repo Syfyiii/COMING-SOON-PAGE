@@ -8,6 +8,7 @@ test('chapters, keyboard tabs and close work across browser engines', async ({
   page.on('pageerror', (error) => errors.push(error.message))
   await page.goto('/services/')
   await expect(page.locator('#chapter-title')).toBeVisible()
+  await expect(page.locator('#chapter-title')).toHaveCSS('font-family', /DNA Display/)
   const ai = page.getByRole('tab', { name: 'AI integrations' })
   await ai.click()
   await expect(page).toHaveURL(/\/services\/ai-call-center\/$/)

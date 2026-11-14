@@ -6,7 +6,7 @@ The website's temporary delivery route is **support@digitalnativesagcy.com**. It
 
 - `supabase/functions/website-inquiry/core.mjs`: standard Web API validation, quotas, idempotency and Graph delivery.
 - `index.ts`: Deno entry point/environment adapter.
-- `supabase/migrations/20261114103546_website_inquiry_delivery.sql`: isolated table and two RPCs; apply once through the approved migration flow.
+- `supabase/migrations/20261114132930_website_inquiry_delivery.sql`: isolated table and two RPCs; applied to CallCenter on November 14, 2026. Do not apply twice.
 - `tests/inquiry-endpoint.test.mjs`: mocked provider/database tests, including concurrent reservation and failure cases.
 - `src/inquiry-config.js`: public endpoint and anon JWT. Never substitute a service-role key.
 
