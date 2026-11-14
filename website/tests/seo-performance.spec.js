@@ -63,10 +63,16 @@ for (const mobile of [false, true]) {
           : { width: 1440, height: 900 },
         isMobile: mobile,
         hasTouch: mobile,
+        deviceScaleFactor: mobile ? 3 : 1,
       })
       try {
         const page = await context.newPage()
         const errors = []
+        const menuPhotoRequests = []
+        page.on('request', request => {
+          if (new URL(request.url()).pathname === '/media/culture-crowd.webp')
+            menuPhotoRequests.push(request.url())
+        })
         page.on('pageerror', (error) => errors.push(error.message))
         const client = await context.newCDPSession(page)
         await client.send('Network.enable')
@@ -81,7 +87,18 @@ for (const mobile of [false, true]) {
           await client.send('Emulation.setCPUThrottlingRate', { rate: 4 })
         }
         await page.addInitScript(() => {
-          window.vitals = { lcp: 0, shifts: [] }
+          window.vitals = { lcp: 0, shifts: [], heroReadyMs: 0 }
+          const heroReady = new MutationObserver(() => {
+            if (document.querySelector('.hero-cutout[data-ready]')) {
+              window.vitals.heroReadyMs = performance.now()
+              heroReady.disconnect()
+            }
+          })
+          heroReady.observe(document, {
+            childList: true,
+            subtree: true,
+            attributes: true,
+          })
           new PerformanceObserver((list) => {
             for (const entry of list.getEntries())
               window.vitals.lcp = entry.startTime
@@ -113,17 +130,25 @@ for (const mobile of [false, true]) {
           }
           return {
             lcp: window.vitals.lcp,
+            heroReadyMs: window.vitals.heroReadyMs,
+            domContentLoadedMs: performance.getEntriesByType('navigation')[0]
+              .domContentLoadedEventEnd,
             cls,
             shifts: window.vitals.shifts,
             video: document.querySelector('video')?.currentSrc,
           }
         })
+        metrics.menuPhotoRequests = menuPhotoRequests.length
         samples.push(metrics)
         expect(errors).toEqual([])
         expect(metrics.cls).toBeLessThanOrEqual(0.1)
         expect(metrics.lcp).toBeGreaterThan(0)
         expect(metrics.lcp).toBeLessThanOrEqual(2500)
-        if (mobile) expect(metrics.video).toContain('/media/hero-mobile.mp4')
+        expect(metrics.heroReadyMs).toBeGreaterThan(0)
+        if (mobile) {
+          expect(metrics.video).toContain('/media/hero-mobile.mp4')
+          expect(metrics.menuPhotoRequests).toBe(0)
+        }
       } finally {
         await context.close()
       }
@@ -135,5 +160,11 @@ for (const mobile of [false, true]) {
     console.log(
       `${mobile ? 'Mobile' : 'Desktop'} lab samples: ${JSON.stringify(samples)}`,
     )
+    if (mobile) {
+      const medianStartup = samples
+        .map(sample => sample.domContentLoadedMs)
+        .sort((a, b) => a - b)[1]
+      expect(medianStartup).toBeLessThanOrEqual(3200)
+    }
   })
 }
