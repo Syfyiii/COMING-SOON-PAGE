@@ -1,22 +1,7 @@
-# Digital Natives Agency
+# Digital Natives Agency website
 
-Production website: https://www.digitalnativesagcy.com/
+Canonical React source: **[website/](website/README.md)**. Production: https://www.digitalnativesagcy.com/.
 
-This repository contains the production-ready static output for GitHub Pages.
-Pages publishes the root of `main`. Keep `CNAME`, `.nojekyll`, and the Microsoft
-365 domain-verification file when replacing the build output.
+GitHub Actions builds and checks `website/`, then publishes only `website/dist` to Pages. `/release.json` identifies the source commit. Root-level static assets are the preserved pre-reinforcement deployment; they are not the source for future edits. Domain and Microsoft verification files remain at the root and are copied during each build.
 
-The September 16, 2026 launch uses approved source revision
-`6775c2bdf25ad1c04e839d7c2be5264111cb286a`. The React source is maintained in the
-DNA agency website project; do not edit generated JavaScript or CSS here.
-
-The October 22, 2026 copy refresh keeps connecting corporations to culture as
-the central message and highlights Experiential Marketing, Digital Marketing,
-and Influencer Marketing. The homepage, About and Services introductions, and
-search description use this positioning. The full catalog and pricing remain
-available. Source: `C:\Users\siphu\CODEX WORKSHOP\dna-agency-site-v2`.
-
-The previous website is preserved in Git history and the
-`dna-before-live-2026-09-16` tag. The domain and HTTPS configuration are unchanged.
-
-Support: support@digitalnativesagcy.com | (646) 820-5059
+The original editable source in `C:\Users\siphu\CODEX WORKSHOP\dna-agency-site-v2` and the original brand kit remain intact. Its seven existing edits were included in the imported source snapshot. Do not maintain two active source trees.

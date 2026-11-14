@@ -1,0 +1,3 @@
+[functions.website-inquiry]
+verify_jwt = true
+entrypoint = "./functions/website-inquiry/index.ts"

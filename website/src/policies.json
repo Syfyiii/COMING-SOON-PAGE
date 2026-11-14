@@ -1,0 +1,800 @@
+{
+  "privacy": {
+    "source": "https://www.digitalnativesagcy.com/privacy.html",
+    "nodes": [
+      "\n                ",
+      {
+        "tag": "h1",
+        "children": ["Privacy Policy"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          {
+            "tag": "strong",
+            "children": ["DNAgency LLC"]
+          },
+          " (\"we,\" \"us\") — Last updated: August 7, 2026"
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "This policy describes how we collect, use, and protect information when you use our website, our AI-powered call answering and appointment booking services, or communicate with us by phone, SMS, or email."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["Information We Collect"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          {
+            "tag": "strong",
+            "children": ["Contact information"]
+          },
+          " you provide: name, phone number, email address, and business details when you request a demo, purchase our services, or book an appointment."
+        ]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          {
+            "tag": "strong",
+            "children": ["Call data:"]
+          },
+          " when you call a phone number operated by our service, calls may be recorded and transcribed to provide answering, booking, and follow-up services. Where required by law, recording is disclosed at the start of the call."
+        ]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          {
+            "tag": "strong",
+            "children": ["Appointment and account data:"]
+          },
+          " bookings, service requests, preferences, and account settings."
+        ]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          {
+            "tag": "strong",
+            "children": ["Payment information:"]
+          },
+          " processed by our payment provider (Stripe); we do not store full card numbers."
+        ]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          {
+            "tag": "strong",
+            "children": ["Technical data:"]
+          },
+          " standard website logs and analytics."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["How We Use Information"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "We use this information to provide and improve our services: answering calls, scheduling and confirming appointments, sending service-related notifications, processing payments, providing customer support, and maintaining the security and reliability of our systems."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["SMS / Text Messaging"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "By providing your mobile number during a call, on our website, or in your account settings, you consent to receive text messages related to your request — such as appointment confirmations, reminders, demonstration samples you requested, and service notifications. Message frequency varies; message and data rates may apply."
+        ]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "Reply ",
+          {
+            "tag": "strong",
+            "children": ["STOP"]
+          },
+          " at any time to opt out. Reply ",
+          {
+            "tag": "strong",
+            "children": ["HELP"]
+          },
+          " for assistance."
+        ]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          {
+            "tag": "strong",
+            "children": [
+              "No mobile information will be shared with third parties or affiliates for marketing or promotional purposes."
+            ]
+          },
+          " Text messaging originator opt-in data and consent will not be shared with any third parties, except as necessary to deliver the messages themselves (our messaging service providers) or as required by law."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["Sharing of Information"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "We share information only with service providers necessary to operate our services (telephony, messaging delivery, payment processing, email delivery, and cloud hosting), with the business you contacted or booked with (so they can fulfill your appointment), and as required by law. We do not sell personal information, and we do not share it with third parties for their own marketing."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["Data Retention & Security"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "We retain call records, transcripts, and account data for as long as needed to provide services and meet legal obligations, and we protect it using industry-standard security measures, including encryption in transit and access controls."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["Your Choices"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "You may opt out of text messages (reply STOP), unsubscribe from emails (link in each message), or contact us to request access to or deletion of your personal information, subject to applicable law."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["Children"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "Our services are intended for businesses and adults; we do not knowingly collect information from children under 13."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["Changes"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "We may update this policy; the current version will always be posted at this page with its effective date."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["Contact"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "\n                    DNAgency LLC",
+          {
+            "tag": "br",
+            "children": []
+          },
+          "\n                    374 E 159th St, Bronx, NY 10451",
+          {
+            "tag": "br",
+            "children": []
+          },
+          "\n                    ",
+          {
+            "tag": "a",
+            "children": ["support@digitalnativesagcy.com"],
+            "href": "mailto:support@digitalnativesagcy.com"
+          },
+          " · ",
+          {
+            "tag": "a",
+            "children": ["(646) 820-5059"],
+            "href": "tel:+16468205059"
+          },
+          "\n                "
+        ]
+      },
+      "\n            "
+    ]
+  },
+  "terms": {
+    "source": "https://www.digitalnativesagcy.com/terms.html",
+    "nodes": [
+      "\n                ",
+      {
+        "tag": "h1",
+        "children": ["Terms & Conditions"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          {
+            "tag": "strong",
+            "children": ["DNAgency LLC"]
+          },
+          " (\"Company,\" \"we,\" \"us\") — Last updated: August 7, 2026"
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "These Terms govern your access to and use of our website, software, and services, including AI-powered call answering, appointment booking, messaging, and related tools (the \"Services\"). By using the Services, you agree to these Terms. If you use the Services on behalf of a business, you represent that you are authorized to bind that business."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["1. The Services"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "The Services use automated and artificial-intelligence technologies, including AI voice agents that answer telephone calls, converse with callers, collect information, and schedule appointments. You acknowledge that AI-generated responses are automated, may occasionally be inaccurate or incomplete, and are provided to assist — not replace — your own business judgment. We may modify, improve, or discontinue features at any time."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["2. Accounts & Acceptable Use"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "You are responsible for your account credentials, for the accuracy of the business information you provide (which the AI agent relies on), and for all activity under your account. You agree not to use the Services for unlawful purposes, spam, harassment, emergency services (the Services are not a substitute for 911), or any use that violates telecommunications, consumer-protection, or privacy laws."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["3. Client Compliance Responsibilities"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "You are solely responsible for compliance with laws applicable to your business and your customers, including call-recording consent requirements in your jurisdiction, text-messaging consent and content rules, licensing, advertising, and industry-specific regulations. Where the Services record or transcribe calls, you authorize such recording for your business line and are responsible for any notices your jurisdiction requires. You are responsible for obtaining any consent required to use a person's voice, name, or likeness in connection with optional voice-customization features."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["4. Fees & Payment"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "Paid Services are billed in advance on a subscription basis via our payment processor, plus any usage-based charges described at purchase. Fees are non-refundable except where required by law. We may suspend Services for non-payment after notice. Prices may change with notice effective at your next billing cycle. You are responsible for applicable taxes."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["5. Third-Party Services"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "The Services depend on third-party providers, including telephony carriers, voice and AI model providers, messaging networks, hosting, and payment processors. We do not control these providers and are not responsible for their availability, errors, delays, outages, message filtering, or changes to their services."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["6. No Guarantee of Availability or Outcomes"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "While the Services are designed for high availability, including automated failover features, ",
+          {
+            "tag": "strong",
+            "children": [
+              "we do not guarantee uninterrupted operation, that every call will be answered or connected, that every message will be delivered, that appointments will be accurately captured in all circumstances, or any particular business outcome"
+            ]
+          },
+          ", including leads, bookings, or revenue. Telephone networks, carriers, and third-party systems can fail in ways outside our control."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["7. Intellectual Property"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "We retain all rights in the Services, software, and underlying technology. You retain your business content and data. You grant us a license to process your content and data as needed to provide, maintain, secure, and improve the Services. Feedback you provide may be used without obligation."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["8. Disclaimer of Warranties"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "THE SERVICES ARE PROVIDED \"AS IS\" AND \"AS AVAILABLE.\" TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ACCURACY, AND UNINTERRUPTED OR ERROR-FREE OPERATION."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["9. Limitation of Liability"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "TO THE MAXIMUM EXTENT PERMITTED BY LAW: (a) WE WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR LOST PROFITS, LOST REVENUE, LOST BUSINESS OPPORTUNITIES, MISSED CALLS OR APPOINTMENTS, LOSS OF DATA, OR LOSS OF GOODWILL, EVEN IF ADVISED OF THE POSSIBILITY; AND (b) OUR TOTAL AGGREGATE LIABILITY ARISING OUT OF OR RELATING TO THE SERVICES WILL NOT EXCEED THE FEES YOU PAID TO US FOR THE SERVICES IN THE THREE (3) MONTHS BEFORE THE EVENT GIVING RISE TO THE CLAIM. SOME JURISDICTIONS DO NOT ALLOW CERTAIN LIMITATIONS; IN THOSE JURISDICTIONS, LIABILITY IS LIMITED TO THE FULLEST EXTENT PERMITTED."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["10. Indemnification"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "You will defend, indemnify, and hold harmless the Company and its officers, employees, and agents from claims, damages, and expenses (including reasonable attorneys' fees) arising from your business operations, your content and data, your violation of these Terms, or your violation of any law or third-party right — including claims by your customers relating to calls, recordings, messages, appointments, or services you provide."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["11. Term & Termination"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "These Terms apply while you use the Services. Either party may terminate as described at purchase or in your service agreement; we may suspend or terminate for breach, non-payment, unlawful use, or risk to the Services or other customers. Upon termination, provisioned resources (including phone numbers) may be released, and Sections 6–13 survive."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["12. Dispute Resolution; Governing Law"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "These Terms are governed by the laws of the State of New York, without regard to conflicts-of-law rules. Any dispute will be resolved through binding arbitration in New York, NY on an individual basis; ",
+          {
+            "tag": "strong",
+            "children": [
+              "both parties waive any right to a jury trial and to participate in a class action"
+            ]
+          },
+          ", to the extent permitted by law. Either party may bring qualifying claims in small-claims court."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["13. General"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "These Terms, together with your order and our ",
+          {
+            "tag": "a",
+            "children": ["Privacy Policy"],
+            "href": "privacy.html"
+          },
+          ", are the entire agreement regarding the Services. If any provision is unenforceable, the remainder stays in effect. We may update these Terms; continued use after posted changes constitutes acceptance. You may not assign these Terms without our consent; we may assign them in connection with a merger or sale."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["Contact"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "\n                    DNAgency LLC",
+          {
+            "tag": "br",
+            "children": []
+          },
+          "\n                    374 E 159th St, Bronx, NY 10451",
+          {
+            "tag": "br",
+            "children": []
+          },
+          "\n                    ",
+          {
+            "tag": "a",
+            "children": ["support@digitalnativesagcy.com"],
+            "href": "mailto:support@digitalnativesagcy.com"
+          },
+          " · ",
+          {
+            "tag": "a",
+            "children": ["(646) 820-5059"],
+            "href": "tel:+16468205059"
+          },
+          "\n                "
+        ]
+      },
+      "\n            "
+    ]
+  },
+  "sms": {
+    "source": "https://www.digitalnativesagcy.com/opt-in-evidence.html",
+    "nodes": [
+      "\n                ",
+      {
+        "tag": "h1",
+        "children": ["SMS Opt-In Consent Documentation"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "DNAgency LLC — A2P 10DLC Campaign Consent Flow — Last updated August 10, 2026"
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["1. Overview"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "DNAgency LLC provides AI-powered call answering and appointment booking services for local service businesses. When a consumer calls a business served by our platform, an automated voice assistant answers, helps the caller schedule an appointment, and — with the caller's explicit verbal permission — sends transactional text messages about that appointment."
+        ]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "SMS consent is collected verbally during inbound phone calls initiated by the consumer. This page documents the complete consent experience for carrier and compliance review."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["2. Verbal Opt-In Flow"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "Every call follows this scripted flow. The consent exchange below is reproduced word-for-word from the production agent script (receptionist prompt v2.1.0)."
+        ]
+      },
+      "\n                ",
+      {
+        "tag": "table",
+        "children": [
+          {
+            "tag": "tbody",
+            "children": [
+              {
+                "tag": "tr",
+                "children": [
+                  {
+                    "tag": "th",
+                    "children": ["Step"]
+                  },
+                  {
+                    "tag": "th",
+                    "children": ["Speaker"]
+                  },
+                  {
+                    "tag": "th",
+                    "children": ["Exchange"]
+                  }
+                ]
+              },
+              {
+                "tag": "tr",
+                "children": [
+                  {
+                    "tag": "td",
+                    "children": ["1"]
+                  },
+                  {
+                    "tag": "td",
+                    "children": ["Agent (AI disclosure)"]
+                  },
+                  {
+                    "tag": "td",
+                    "children": [
+                      "\"Thanks for calling [Business Name], this is [Agent Name], an automated assistant — how can I help you today?\""
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "tr",
+                "children": [
+                  {
+                    "tag": "td",
+                    "children": ["2"]
+                  },
+                  {
+                    "tag": "td",
+                    "children": ["Caller"]
+                  },
+                  {
+                    "tag": "td",
+                    "children": ["Requests an appointment or service."]
+                  }
+                ]
+              },
+              {
+                "tag": "tr",
+                "children": [
+                  {
+                    "tag": "td",
+                    "children": ["3"]
+                  },
+                  {
+                    "tag": "td",
+                    "children": ["Agent"]
+                  },
+                  {
+                    "tag": "td",
+                    "children": [
+                      "Asks for the best mobile number to attach to the appointment, and reads it back to confirm."
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "tr",
+                "children": [
+                  {
+                    "tag": "td",
+                    "children": ["4"]
+                  },
+                  {
+                    "tag": "td",
+                    "children": ["Agent (consent question)"]
+                  },
+                  {
+                    "tag": "td",
+                    "children": [
+                      "\"I'll text you a confirmation of your appointment and a reminder before your visit — is that okay?\""
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "tr",
+                "children": [
+                  {
+                    "tag": "td",
+                    "children": ["5"]
+                  },
+                  {
+                    "tag": "td",
+                    "children": ["If the caller agrees"]
+                  },
+                  {
+                    "tag": "td",
+                    "children": [
+                      "Consent is recorded. The caller receives only transactional messages about their own request: the appointment confirmation, reminders, and rescheduling notices."
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "tr",
+                "children": [
+                  {
+                    "tag": "td",
+                    "children": ["6"]
+                  },
+                  {
+                    "tag": "td",
+                    "children": ["If the caller declines"]
+                  },
+                  {
+                    "tag": "td",
+                    "children": [
+                      "The booking proceeds normally and no text messages are ever sent to that number."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "All calls are recorded and transcribed. Each consent exchange is therefore documented with a timestamped transcript retained with the booking record. Consent status is stored per phone number and checked before every message send."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["3. Disclosures & Opt-Out"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "Message frequency varies with the consumer's own appointment activity. Message and data rates may apply."
+        ]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "Consumers can reply ",
+          {
+            "tag": "strong",
+            "children": ["STOP"]
+          },
+          " at any time to opt out. Opt-out is honored automatically and immediately at the carrier level, and the number is additionally suppressed at our application layer so no further messages are sent from our systems."
+        ]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "Consumers can reply ",
+          {
+            "tag": "strong",
+            "children": ["HELP"]
+          },
+          " at any time for assistance."
+        ]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "No mobile information is shared with third parties or affiliates for marketing or promotional purposes. Opt-in data and consent records are not shared with any third parties except as necessary to deliver the messages themselves (our messaging service providers) or as required by law."
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["4. Sample Messages"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": ["Transactional messages sent under this campaign:"]
+      },
+      "\n                ",
+      {
+        "tag": "div",
+        "children": [
+          "\n                    ",
+          {
+            "tag": "p",
+            "children": ["Appointment confirmation"]
+          },
+          "\n                    ",
+          {
+            "tag": "div",
+            "children": [
+              "[Business Name]: You're confirmed for [service] on [Day, Month D at H:MM AM/PM]. Reply HELP for help, STOP to opt out."
+            ]
+          },
+          "\n                    ",
+          {
+            "tag": "p",
+            "children": ["Appointment reminder"]
+          },
+          "\n                    ",
+          {
+            "tag": "div",
+            "children": [
+              "Reminder from [Business Name]: your [service] appointment is [Day, Month D at H:MM AM/PM]. Reply CANCEL to cancel, RESCHEDULE to pick a new time, or STOP to opt out."
+            ]
+          },
+          "\n                    ",
+          {
+            "tag": "p",
+            "children": ["Opt-out acknowledgment"]
+          },
+          "\n                    ",
+          {
+            "tag": "div",
+            "children": [
+              "You have successfully been unsubscribed. You will not receive any more messages from this number. Reply START to resubscribe."
+            ]
+          },
+          "\n                "
+        ]
+      },
+      "\n\n                ",
+      {
+        "tag": "h2",
+        "children": ["5. Links"]
+      },
+      "\n                ",
+      {
+        "tag": "p",
+        "children": [
+          "\n                    ",
+          {
+            "tag": "a",
+            "children": ["Privacy Policy"],
+            "href": "privacy.html"
+          },
+          " ·\n                    ",
+          {
+            "tag": "a",
+            "children": ["Terms & Conditions"],
+            "href": "terms.html"
+          },
+          " ·\n                    Contact: ",
+          {
+            "tag": "a",
+            "children": ["support@digitalnativesagcy.com"],
+            "href": "mailto:support@digitalnativesagcy.com"
+          },
+          "\n                "
+        ]
+      },
+      "\n            "
+    ]
+  }
+}
