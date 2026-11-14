@@ -1,6 +1,21 @@
 import { test, expect } from '@playwright/test'
 import { inquiryEndpoint } from '../src/inquiry-config.js'
 
+test('navigation photograph loads when the tablet menu becomes visible', async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 900, height: 900 })
+  await page.goto('/')
+  await page.getByRole('button', { name: 'Open navigation' }).click()
+  const photo = page.locator('.menu-photograph')
+  await expect(photo).toBeVisible()
+  await expect
+    .poll(() => photo.evaluate(image => image.complete && image.naturalWidth > 0))
+    .toBe(true)
+  await page.getByRole('button', { name: 'Close navigation' }).click()
+  await expect(page.getByRole('dialog', { name: 'Navigation' })).not.toBeVisible()
+})
+
 test('chapters, keyboard tabs and close work across browser engines', async ({
   page,
 }) => {

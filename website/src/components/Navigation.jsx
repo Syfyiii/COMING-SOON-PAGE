@@ -245,6 +245,7 @@ export function Navigation({ onStartProject, onOpenPanel, activePanel }) {
             <img
               className="menu-photograph"
               src="/media/culture-crowd.webp"
+              loading="lazy"
               alt=""
               aria-hidden="true"
             />

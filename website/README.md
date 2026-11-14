@@ -63,6 +63,10 @@ The form targets **support@digitalnativesagcy.com** through the isolated Supabas
 
 Original logos/fonts come from the supplied DNA brand kit; photos come from the user's F:\Media library. Originals remain intact. The approved film edit has desktop and 3.61 MB mobile derivatives. Film starts after initial load, pauses offscreen, and respects reduced motion/data saving. WOFF2 derivatives preserve the original fonts; `scripts/optimize-fonts.py` records conversion.
 
+Startup preloads are limited to the display font, hero poster and logo. CSS discovers the body font, and the closed navigation photo loads lazily, keeping these downloads from competing with the entry script. Cold-cache tests record DOMContentLoaded and hero-mask readiness alongside LCP/CLS, and ensure mobile startup does not request the hidden menu photo. Hero readiness depends on both the React layout effect and a loaded logo; it is not a standalone hydration measurement.
+
+The mobile lab budget is a median DOMContentLoaded of at most 3.2 seconds across three samples (390 × 844, DPR 3, 1.6 Mbps download, 150 ms latency, 4× CPU slowdown). LCP stays within 2.5 seconds and CLS within 0.1 in every sample.
+
 Policy sync validates all three documents before replacing output and rolls back interrupted writes. It retains sourced dates/wording and the current support email/phone. Policy pages are not certification of SMS or carrier compliance.
 
 A static 404, no-JavaScript links and uncaught-error contact fallback retain a route to support. Production HTML includes a restricted CSP and referrer policy. GitHub Pages cannot set the remaining custom HTTP headers here; hosting fit, alert ownership and stronger anti-bot controls need an operational decision as traffic grows. See `DESIGN.md` for the existing design history.
