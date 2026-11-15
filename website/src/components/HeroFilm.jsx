@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
 import { Pause, Play } from 'lucide-react'
 
+const heroFilmSrc = '/media/all-stages-hero.mp4'
+
 export function HeroFilm() {
   const videoRef = useRef(null)
   const wantsPlayback = useRef(true)
@@ -19,9 +21,7 @@ export function HeroFilm() {
     let timer
     const loadVideo = () => {
       if (!video.getAttribute('src')) {
-        video.src = matchMedia('(max-width: 700px)').matches
-          ? '/media/hero-mobile.mp4'
-          : '/media/all-stages-hero.mp4'
+        video.src = heroFilmSrc
       }
     }
     const sync = () => {
@@ -71,9 +71,7 @@ export function HeroFilm() {
     const video = videoRef.current
     setFailed(false)
     if (!video.getAttribute('src')) {
-      video.src = matchMedia('(max-width: 700px)').matches
-        ? '/media/hero-mobile.mp4'
-        : '/media/all-stages-hero.mp4'
+      video.src = heroFilmSrc
     }
     if (video.error) video.load()
     wantsPlayback.current = video.paused

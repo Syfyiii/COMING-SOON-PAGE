@@ -61,7 +61,7 @@ The form targets **support@digitalnativesagcy.com** through the isolated Supabas
 
 ## Media, policies and recovery
 
-Original logos/fonts come from the supplied DNA brand kit; photos come from the user's F:\Media library. Originals remain intact. The approved film edit has desktop and 3.61 MB mobile derivatives. Film starts after initial load, pauses offscreen, and respects reduced motion/data saving. WOFF2 derivatives preserve the original fonts; `scripts/optimize-fonts.py` records conversion.
+Original logos/fonts come from the supplied DNA brand kit; photos come from the user's F:\Media library. Originals remain intact. Both mobile and desktop use the approved 1920 × 1080, 30 fps H.264 film (`all-stages-hero.mp4`, 18.97 MB). The owner requested 1080p quality on November 15, 2026; do not automatically substitute the older 720 × 406 mobile derivative. Film starts after initial load, pauses offscreen, and respects reduced motion/data saving. The higher-quality file uses more mobile data and may buffer on slow connections. WOFF2 derivatives preserve the original fonts; `scripts/optimize-fonts.py` records conversion.
 
 Startup preloads are limited to the display font, hero poster and logo. CSS discovers the body font, and the closed navigation photo loads lazily, keeping these downloads from competing with the entry script. Cold-cache tests record DOMContentLoaded and hero-mask readiness alongside LCP/CLS, and ensure mobile startup does not request the hidden menu photo. Hero readiness depends on both the React layout effect and a loaded logo; it is not a standalone hydration measurement.
 
