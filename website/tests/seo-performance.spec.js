@@ -136,6 +136,8 @@ for (const mobile of [false, true]) {
             cls,
             shifts: window.vitals.shifts,
             video: document.querySelector('video')?.currentSrc,
+            videoWidth: document.querySelector('video')?.videoWidth,
+            videoHeight: document.querySelector('video')?.videoHeight,
           }
         })
         metrics.menuPhotoRequests = menuPhotoRequests.length
@@ -145,8 +147,10 @@ for (const mobile of [false, true]) {
         expect(metrics.lcp).toBeGreaterThan(0)
         expect(metrics.lcp).toBeLessThanOrEqual(2500)
         expect(metrics.heroReadyMs).toBeGreaterThan(0)
+        expect(metrics.video).toContain('/media/all-stages-hero.mp4')
+        expect(metrics.videoWidth).toBe(1920)
+        expect(metrics.videoHeight).toBe(1080)
         if (mobile) {
-          expect(metrics.video).toContain('/media/hero-mobile.mp4')
           expect(metrics.menuPhotoRequests).toBe(0)
         }
       } finally {

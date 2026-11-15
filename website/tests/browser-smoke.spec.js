@@ -1,6 +1,26 @@
 import { test, expect } from '@playwright/test'
 import { inquiryEndpoint } from '../src/inquiry-config.js'
 
+test('manual playback on mobile selects the 1080p film without preloading it', async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 390, height: 844 })
+  await page.emulateMedia({ reducedMotion: 'reduce' })
+  await page.goto('/')
+  const video = page.locator('video')
+  await expect(video).not.toHaveAttribute('src')
+  // Let the 300 ms deferred autoplay check settle before the manual-play assertion.
+  await page.waitForTimeout(350)
+  await page.getByRole('button', { name: 'Play background film' }).click()
+  await expect(video).toHaveAttribute('src', '/media/all-stages-hero.mp4')
+  // Decoded dimensions are checked in Chromium performance tests; Windows WebKit reports poster dimensions.
+  await expect
+    .poll(() => video.evaluate(element => element.currentTime > 0 && !element.paused))
+    .toBe(true)
+  await page.getByRole('button', { name: 'Pause background film' }).click()
+  await expect.poll(() => video.evaluate(element => element.paused)).toBe(true)
+})
+
 test('navigation photograph loads when the tablet menu becomes visible', async ({
   page,
 }) => {
